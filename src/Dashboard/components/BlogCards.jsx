@@ -146,7 +146,7 @@ const BlogCards = () => {
 
       {/* Edit Form Modal */}
       {editingBlog !== null && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center py-8 overflow-hidden">
+        <div className="fixed inset-0 bg-gradient-to-b from-[#47515c] to-[#0b151e] bg-opacity-50 flex justify-center items-center py-8 overflow-hidden">
           <div className="bg-[#f3f4f6] w-full md:w-1/2 p-6 rounded-md shadow-lg max-h-screen h-[100%] overflow-y-auto">
             {error && <p className="text-red-500 text-center my-4">{error}</p>}
 
